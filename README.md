@@ -147,6 +147,8 @@ Please support humans.txt (http://humanstxt.org/). It's an initiative for knowin
 	URL: http://niklausgerber.com
 	Location: Bern, Switzerland
 	
+If you are happy with monochrome please link to http://niklausgerber.com & follow me on [Twitter](http://twitter.com/niklausgerber).
+
 ### Licences
 Monochrome by Niklaus Gerber is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
 Based on a work at github.com.
