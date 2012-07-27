@@ -1,0 +1,2 @@
+<br />
+<g:plusone size="medium" annotation="none"></g:plusone> &nbsp; <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo html($page->url()) ?>" data-via="<?php echo html($site->twitter()) ?>" data-count="yes">Tweet</a>

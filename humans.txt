@@ -1,0 +1,44 @@
+/* Theme */
+	Niklaus Gerber
+	Twitter: @niklausgerber
+	URL: http://niklausgerber.com/
+	From: Bern, Switzerland
+
+/* THANKS */
+	Bastian Allgeier
+	Twitter: @bastianallgeier
+	URL: http://bastianallgeier.com/
+	From: Mannheim, Germany
+	
+	Conor Muirhead, SimpleGrid
+	Twitter: @conormuirhead
+	URL: http://conor.cc/
+	From: Santa Clara, CA, USA
+	
+	Dave Rupert, FitText.js
+	Twitter: @davatron5000
+	URL: http://daverupert.com
+	From: Austin, TX, USA
+	
+	Viljami Salminen, TinyNav.js
+	Twitter: @viljamis
+	URL: http://tinynav.viljamis.com/
+	From: Helsinki, Finland
+		
+	
+/* FONTS */
+	via Google Webfonts
+	
+	Arvo by Anton Koovit
+	Specimens: http://www.google.com/webfonts/specimen/Arvo
+	
+	Lato by Łukasz Dziedzic
+	Specimens: http://www.google.com/webfonts/specimen/Lato
+	
+	
+/* SITE */	
+	Standards: HTML, CSS
+	Doctype: HTML
+	Language: english
+	Components: jQuery                      
+	Powered by: http://getkirby.com/

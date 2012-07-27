@@ -1,0 +1,367 @@
+/* HTML5 display-role reset for older browsers */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* CSS Enhancements for Better User Experience */
+
+::selection {
+	background:#ececec;
+	color:#000; /* Safari and Opera */
+}
+	
+::-moz-selection {
+	background:#ececec;
+	color:#000; /* Firefox */
+}
+
+html {
+	overflow-y:scroll;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	tap-highlight-color: rgba(0, 0, 0, 0);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Brakes Text for Mobile */
+.page-break {
+	page-break-before:always;
+}
+
+input[type=submit], label, select, .pointer {
+	cursor:pointer;
+}
+
+/* Hack */
+@media all and (-webkit-min-device-pixel-ratio: 1){
+    selectors {
+        properties: values;
+    }
+}
+
+/* Basic Setup */
+
+body {
+	color: #000;	
+	line-height: 1.8em;
+	font-family: 'Arvo', serif;
+}
+
+ol, ul {
+	list-style: square;
+	margin: 0 0 0.5em;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+code {
+	background-color: #f4f4f4;
+	font-family: "Courier New", Courier, mono;
+	font-size: 0.875em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	border: none;
+	height: 9em;
+}
+
+/* styles for mobile */
+@media screen and (max-width: 720px) {
+	hr {
+		border: none;
+		height: 3.5em;
+	}
+}
+
+.grid {
+	padding: 0 20px;
+}
+
+.row {
+	margin-bottom: 4em;
+}
+
+/* Typogrpaphy */
+
+p {
+	margin: 0 0 0.5em;
+	margin: 0 0 2.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: 1.25em;
+	padding-bottom: 0.7em;
+	padding-right: 0;
+	padding-left: 0;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3, h4 {
+	font-size: 2em;
+}
+
+h5, h6 {
+	font-size: 1em;
+}
+
+/* styles for mobile */
+@media screen and (max-width: 720px) {
+	h1 {
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+	}
+	
+	h3, h4 {
+		font-size: 1em;
+	}
+	
+	h5, h6 {
+		font-size: 1em;
+	}
+}
+
+a, a:link, a:visited {
+	color: #DB1010;
+	text-decoration: none;	
+	border: none;
+	font-weight: bold;
+}
+
+a:hover, a:active {
+	color: #CCC;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.date {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	line-height: 0em;
+	margin-bottom: 1em;
+	color: #ccc;
+}
+
+/* Header */
+
+.header {
+	position: fixed;
+	background: #FFF;
+	-moz-box-shadow: 0px 2px 6px rgba(222, 222, 222, .9);
+	-webkit-box-shadow: 0px 2px 6px rgba(222, 222, 222, .9);
+	border-bottom: 1px solid #d4d3d3;
+	box-shadow: 0px 2px 6px rgba(222, 222, 222, .9);
+	top: 0;
+	width: 100%;
+	height: 4.5em;
+	z-index: 9;
+}
+
+/* Navigation */
+
+#navigation {
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	position: relative;
+	top: 1.5em;
+}
+
+a.nav, a.nav:link, a.nav:visited {
+	color: #232323;
+	display:inline-block;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	font-weight: normal;
+}
+
+a.nav:hover, a.nav:active {
+	color: #DB1010;
+}
+
+.tinynav { 
+	display: none;
+}
+
+#navigation li {
+	display:inline;
+}
+
+/* styles for mobile */
+@media screen and (max-width: 720px) {
+	.header {
+		height: 2.5em;
+		z-index: 9;
+	}
+
+	#navigation {
+		top: 1.5em;
+	}
+
+	.tinynav { 
+		display: block;
+		position: relative;
+		top: 0.9em;
+		z-index: 10;
+		float: right;
+		margin-right:0.9em;
+	}
+	
+	#navigation { 
+		display: none;
+	}
+}
+
+/* Article & Info Title */
+.article-title a, .article-title a:link, .article-title a:visited {
+	color: #232323;
+}
+
+#url {
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;	
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+/* Error */
+.error {
+	text-align: center;
+}
+
+/* Search */
+.search {
+	text-align: center;
+}
+
+/* Footer */
+
+.footer {
+	width: 100%;
+	text-align: center;
+	color: #ccc;
+	margin-top: 3em;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.5em;
+	color: #ccc;
+}
+
+/* FitMyVideo */
+
+.FitMyVideo-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.FitMyVideo-container iframe,	
+.vFitMyVideo-container object,	
+.vFitMyVideo-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Form Fields */
+
+#search {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-border-radius:0;
+	-webkit-appearance:none;
+	width: 100%;
+	height: 1.667em;
+	padding: 0;
+	font: 1.667em 'Arvo', serif;
+}
+
+input[type=submit] {
+	background:#EEE;
+	background:-moz-linear-gradient(top,#F7F7F7,#E6E6E6);
+	background:-webkit-gradient(linear,left top,left bottom,from(#F7F7F7),to(#E6E6E6));
+	border:solid .1em #666;
+	border-radius:.3em;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	cursor:pointer;
+	font-size:90%;
+	font-weight:700;
+	height:2em;
+	padding:0 .5em;
+	text-shadow:#FFF 0 .1em 0;
+	-moz-text-shadow:#FFF 0 .1em 0;
+	-webkit-text-shadow:#FFF 0 .1em 0;
+	margin-top: 0.5em;
+}
+	
+input[type=submit]:hover {
+	border-color:#222
+}

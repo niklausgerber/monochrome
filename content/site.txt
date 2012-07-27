@@ -1,0 +1,9 @@
+Title: Your Page Title
+----
+Author: First & Last Name | http://yourdomain.com (for meta tags)
+----
+Copyright: © 2011-2012 Your Name, all rights reserved.
+----
+Googleauthor: First & Last Name (for Google+ and Google Search)
+----
+Twitter: username (your Twitter username without the @ for social sharing)
