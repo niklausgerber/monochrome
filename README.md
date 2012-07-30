@@ -1,4 +1,4 @@
-# monochrome | The first fully responsive Kirby CMS theme
+# monochrome | A fully responsive Kirby CMS theme
 monochrome is an open source theme for [Kirby CMS](http://getkirby.com). It is fully responsive, free and you can use it out of the box. Test the live demo [here](http://monochrome.niklausgerber.com).
 
 ## Features
