@@ -4,7 +4,7 @@
 
 <!--Article-->
 <div class="grid">
-	<? if(param('tag')) {
+	<?php if(param('tag')) {
 	
 	  $articles = $pages->find('articles')
 	                    ->children()
@@ -22,7 +22,7 @@
 	                    ->paginate(10);
 	
 	} ?>
-	<? foreach($articles as $article): ?>
+	<?php foreach($articles as $article): ?>
 	<div class="row">		
 		<div class="slot-6-7-8-9">
 			<p class="date"><?php echo html($article->published()) ?></p>
@@ -33,11 +33,11 @@
 		</div>
 	</div>
 	<?php endforeach ?>
-	<? if($articles->pagination()->hasPages()): ?>
+	<?php if($articles->pagination()->hasPages()): ?>
 	<div class="row">		
 		<div class="slot-6-7-8-9">
 			<p>    						
-				<? if($articles->pagination()->hasPrevPage()): ?>
+				<?php if($articles->pagination()->hasPrevPage()): ?>
 				<a class="prev" href="<?= $articles->pagination()->prevPageURL() ?>">« Previous</a>
 				<? endif ?>
 				
@@ -45,13 +45,13 @@
 				|
 				<?php endif ?>
 				
-				<? if($articles->pagination()->hasNextPage()): ?>
+				<?php if($articles->pagination()->hasNextPage()): ?>
 				<a class="next" href="<?= $articles->pagination()->nextPageURL() ?>">Next  »</a>
-				<? endif ?>
+				<?php endif ?>
 			</p>			
 		</div>
 	</div>
-	<? endif ?>
+	<?php endif ?>
 </div>
 
 
