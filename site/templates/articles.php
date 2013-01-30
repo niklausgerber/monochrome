@@ -39,7 +39,7 @@
 			<p>    						
 				<?php if($articles->pagination()->hasPrevPage()): ?>
 				<a class="prev" href="<?= $articles->pagination()->prevPageURL() ?>">« Previous</a>
-				<? endif ?>
+				<?php endif ?>
 				
 				<?php if($articles->pagination()->hasPrevPage() && $articles->pagination()->hasNextPage()): ?>
 				|
