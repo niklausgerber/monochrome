@@ -84,13 +84,13 @@ After you setup your Disqus account you only have to change the username in the 
 The complete footer of your page. Please change it at will but I am happy if you leave the comment on the last line.
 
 ### /site/snippets/header.php
-The complete footer of your page. Please change it at will.
+The complete header of your page. Please change it at will.
 
 ### /site/snippets/navigation.php
 The complete footer of your page. Please change it at will. Any content site which has a number ID will be listed.
 
-### /site/snippets/pagnition.php
-The pagnition snippet. Please change it at will.
+### /site/snippets/pagination.php
+The pagination snippet. Please change it at will.
 
 ### /site/snippets/share.php
 Social share buttons. Please change them at will.
